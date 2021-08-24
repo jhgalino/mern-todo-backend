@@ -11,7 +11,7 @@ Installation is done using `npm install`:
 $ npm install
 ```
 ## Usage
-**This should be run first for the application to work!**\
+**:warning:This should be run first for the application to work!:warning:**\
 Run the start script using `npm run`:
 ```
 $ npm run start
