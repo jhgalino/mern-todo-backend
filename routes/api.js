@@ -2,6 +2,7 @@ const { json } = require('express');
 var express = require('express');
 var router = express.Router();
 var Todo = require('../models/todo');
+const cors = require('cors');
 
 router.get('/todos', function (req, res, next) {
     Todo.find({}).lean().exec((err, ok) => {
